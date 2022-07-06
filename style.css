@@ -1,0 +1,259 @@
+/*====Default Style====*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+  min-height: 700px;
+	width: 1000px;
+	margin: 0px auto;
+  padding-left: 80px;
+}
+
+/*====Common Style====*/
+a{
+    text-decoration: none;
+}
+
+.red-dot{
+    color: #f0454c;
+}
+
+/*====Header Starts Here====*/
+.header{
+    background-image: url("images/freelancerheader-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1060px;
+}
+
+/*====Menu Starts Here====*/
+.logo{
+    min-height: 50px;
+    width: 150px;
+    float: left;
+}
+
+.nav{
+	min-height: 50px;
+	width: 500px;
+	float: right;
+	padding-top: 20px;
+}
+
+.nav ul li{
+	list-style-type: none;
+	display: inline;
+}
+
+.nav ul li a{
+	text-decoration: none;
+	margin-left: 25px;
+	font-family: Montserrat;
+	font-size: 14px;
+  font-weight: 600;
+	color: #263742;
+	text-transform: uppercase;
+}
+/*====Menu Ends Here====*/
+
+.headline{
+	padding-top: 370px;
+}
+.headline h1{
+	font-size: 45px;
+	font-weight: bold;
+	font-family: Montserrat;
+	color: #314a5b;
+	text-transform: uppercase;
+	width: 54%;
+}
+.headline p{
+	font-size: 20px;
+	color: #314a5b;
+	font-family: Open Sans;
+	margin: 25px 0px 70px 0px;
+}
+.headline a{
+	font-size: 16px;
+  font-family: Open Sans;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 18px 30px;
+	background: #fa5c65;
+	border-radius: 5px;
+}
+/* ====Header Ends Here==== */
+
+/* ====Services Starts Here ==== */
+.article .protfolio{
+	padding-top: 50px;
+}
+.single-article{
+	width: 30%;
+	float: left;
+	margin-right: 30px;
+	padding: 40px 0px;
+}
+.single-article:nth-child(3){
+	margin-right: 0px;
+}
+.article .single-article h4{
+	color: #465065;
+	font-size: 26px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.article .single-article p{
+	font-size: 15px;
+  font-family: Open Sans;
+	color: #9aa0ab;
+	padding: 25px 0px 30px 0px;
+
+}
+.article .single-article a{
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #f0454c;
+	font-weight: bold;
+}
+.article .single-article a img{
+	margin-left: 5px;
+}
+/* ====Services Ends Here Here ==== */
+
+/* ====Portfolio Starts Here==== */
+
+.bio-img{
+	width: 45%;
+	float: left;
+}
+.bio-text{
+	width: 45%;
+	float: right;
+}
+
+.bio-text h2{
+  font-size: 40px;
+  color: #314a5b;
+  font-family: Montserrat;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.bio-text .section-title{
+  font-size: 16px;
+  font-family: Open Sans;
+  font-weight: 500;
+  color: #314a5b;
+  margin-top: 5px;
+}
+
+.bio-text p{
+  font-size: 15px;
+  font-family: Open Sans;
+  color: #9aa0ab;
+  margin-top: 10px;
+}
+
+.bio-text a{
+  font-size: 20px;
+  font-weight: 500;
+  color: #f0454c;
+  font-family: Myriad Pro;
+}
+
+.bio-text img{
+  margin-left: 5px;
+}
+/* ====Portfolio Ends Here==== */
+
+/* ====Team Starts Here==== */
+.team .our-team{
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Myriad pro;
+  color: #314a5b;
+}
+
+.team p{
+  font-size: 16px;
+  font-family: Open sans;
+  color: #9aa0ab;
+}
+
+.member{
+  float: left;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+
+.member img{
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin-right: 30px;
+  border-radius: 90px 90px;
+  border-collapse: collapse;
+}
+
+.identity{
+  margin-left: 20px;
+}
+
+.member .name{
+  font-size: 25px;
+  font-family: Myriad pro;
+  font-weight: bolder;
+  color: #314a5b;
+}
+
+.member .profession{
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Open sans;
+  color: #f0454c;
+}
+
+.member p{
+  font-size: 14px;
+  font-family: Open sans;
+  color: #9aa0ab;
+}
+
+.arrow{
+  margin-top: 30px;
+  margin-right: 80px;
+  float: right;
+}
+
+.arrow a{
+  font-size: 20px;
+  font-weight: 500;
+  color: #f0454c;
+  font-family: Myriad Pro;
+}
+/* ====Team Ends Here==== */
+
+/* ====Bottom Starts Here==== */
+.bottom{
+  border-top: 1px solid #d6d6d6;
+  margin-top: 300px;
+}
+.bottom a img{
+  margin-top: 20px;
+  float: left;
+}
+
+.bottom p{
+  margin-top: 30px;
+  float: right;
+  color: #9aa0ab;
+}
+
+.bottom a{
+    color: #9aa0ab;
+}
+/* ====Bottom Ends Here==== */
